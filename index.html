@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0a0a0b">
+<meta name="description" content="Portfólio">
+<title>Breno Dantas — Desenvolvedor Front-End | Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../estilos/style.css">
+</head>
+<body>
+
+
+<header class="topbar">
+  <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+  <div class="topbar-inner container">
+    <a href="#home" class="logo">~/<span>BD.portfolio</span></a>
+
+    <nav class="tabs" aria-label="Navegação principal">
+      <a href="#home" class="active">home.html</a>
+      <a href="#sobre">sobre.md</a>
+      <a href="#habilidades">habilidades.json</a>
+      <a href="#projetos">projetos/</a>
+      <a href="#contato">contato.sh</a>
+    </nav>
+
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </label>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="home" class="hero container">
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="terminal-dot"></span>
+        <span class="terminal-dot"></span>
+        <span class="terminal-dot"></span>
+        <span class="terminal-title">Breno-Dantas.dev — zsh</span>
+      </div>
+      <div class="terminal-body">
+        <div class="terminal-line"><span class="prompt">$</span><span>whoami</span></div>
+        <h1 class="terminal-output-name">Breno Gustavo A. Dantas</h1>
+
+        <div class="terminal-line"><span class="prompt">$</span><span>cat cargo.txt</span></div>
+        <p class="terminal-output-role">Desenvolvedor Front-End</p>
+
+        <div class="terminal-line"><span class="prompt">$</span><span>cat sobre.txt</span></div>
+        <p class="terminal-output-desc">
+          Eu crio aplicações web, acessíveis e bem estruturadas — do frot-end à interface. Foco em código limpo e em resolver problemas reais.<span class="cursor" aria-hidden="true"></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="hero-actions" style="justify-content:center;">
+      <a href="#projetos" class="btn btn--primary">Ver projetos</a>
+      <a href="#" class="btn btn--outline">Baixar currículo</a>
+    </div>
+
+    <div class="social-row" style="justify-content:center;">
+      <a href="https://github.com/brenodantass" class="social-badge" aria-label="GitHub" target="_blank" rel="noopener">GH</a>
+      <a href="https://linkedin.com/in/brenodanntas" class="social-badge" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+      <a href="mailto:breno.dantas2000@gmail.com" class="social-badge" aria-label="E-mail">@</a>
+    </div>
+  </section>
+
+  <!-- ===================== SOBRE ===================== -->
+  <section id="sobre" class="container">
+    <div class="section-head">
+      <span class="eyebrow">// sobre-mim</span>
+      <h2 class="section-title">Sobre</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="profile-card">
+        <div class="row"><span class="key">nome</span><span class="val">Breno Gustavo de Araújo Dantas</span> </div>
+        <div class="row"><span class="key">cargo</span><span class="val">Dev Front-End</span></div>
+        <div class="row"><span class="key">local</span><span class="val">Natal - RN</span></div>
+        <div class="row"><span class="key">foco</span><span class="val">Web Development</span></div>
+        <div class="row"><span class="key">status</span><span class="val">Aberto a projetos</span></div>
+      </div>
+
+      <div class="about-text">
+        <p>
+          Sou Estuante de Eng. de Computação na UFRN do último periodo. Meu foco atual é aprender e praticar desenvolvimento web, começando pela base de HTML e CSS. Gosto de aprender construindo projetos e tranformar ideias em soluções reais.
+        </p>
+        <p>
+          Evoluindo em  <strong>JavaScript/TypeScript</strong> e <strong> React</strong>, sempre buscando aprender novas ferramentas e boas práticas de engenharia.
+        </p>
+        <p>
+          Fora do código, gosto de contribuir com projetos open source e estudar novas tecnologias. Substitua este texto pela sua própria trajetória.
+          <span class="cursor" aria-hidden="true"></span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HABILIDADES ===================== -->
+  <section id="habilidades" class="container">
+    <div class="section-head">
+      <span class="eyebrow">  </span>
+      <h2 class="section-title">Habilidades &amp; Ferramentas</h2>
+      <p class="section-sub">Tecnologias que uso no dia a dia para construir aplicações completas.</p>
+    </div>
+
+    <div class="skills-groups">
+      <div class="skill-group">
+        <h3>Linguagens</h3>
+        <div class="tag-list">
+          <span class="tag">JavaScript</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">Python</span>
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+        </div>
+      </div>
+
+    
+
+      <div class="skill-group">
+        <h3>Ferramentas</h3>
+        <div class="tag-list">
+          <span class="tag">Git</span>
+          <span class="tag">GitHub</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">Figma</span>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJETOS ===================== -->
+  <section id="projetos" class="container">
+    <div class="section-head">
+      <span class="eyebrow"> </span>
+      <h2 class="section-title">Projetos em destaque</h2>
+      <p class="section-sub">Alguns trabalhos recentes.</p>
+    </div>
+    <div class="project-grid">
+      <div class="project-card">
+        <a href="https://brenodantass.github.io/Funeraria/#home" target="_blank">
+        <h3>Funeraria Paz Eterna</h3>
+          <div class="project-media">
+          <img src="../imagens/print-fun.png" alt="Captura de tela do Projeto 1" loading="lazy">
+          </div>
+          <p>Site institucional para uma funerária, com apresentação de serviços e canal de contato direto para atendimento às famílias.</p>
+          <div class="project-tags">
+            <span>JavaScript</span><span>HTML</span><span>CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/brenodantass/Funeraria" target="_blank" rel="noopener">Código →</a>
+        </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <a href="https://brenodantass.github.io/login/" target="_blank">
+          <h3>Tela Login</h3>
+          <div class="project-media">
+            <img src="../imagens/print-login.png" alt="Captura de tela do Projeto 2" loading="lazy">
+          </div>
+          <p>Interface de login responsiva, com validação de campos e foco em usabilidade e acessibilidade.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/brenodantass/login" target="_blank" rel="noopener">Código →</a>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h3>Em construção...</h3>
+        <p>lorem ipsum dolor sit amet, consectetur adipiscing elit.<span class="cursor" aria-hidden="true"></span></p>
+        <div class="project-tags">
+          <span>Python</span><span>FastAPI</span><span>Docker</span>
+        </div>
+        <div class="project-links">
+          <a href="#" target="_blank" rel="noopener">Código →</a>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIÊNCIA ===================== -->
+  <section id="experiencia" class="container">
+    <div class="section-head">
+      <span class="eyebrow">// Formação </span>
+      <h2 class="section-title">Formação</h2>
+    </div>
+
+    <div class="exp-list">
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Formando em Engenharia de Computação <span class="exp-company">UFRN</span></span>
+          <span class="exp-date">2024 — Atual</span>
+        </div>
+        <ul>
+          <li>Conhecimento em analise de sistemas.</li>
+          <li>Adquirindo conhecimentos em programação e desenvolvimento de software.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Bacharel em Ciências e Tecnologia <span class="exp-company">UFRN</span></span>
+          <span class="exp-date">2021 — 2024</span>
+        </div>
+        <ul>
+          <li>Adquiri conhecimentos em programação, lógica de programação e computação.</li>
+          <li>Participei de projetos de pesquisa e desenvolvimento, aplicando conceitos teóricos em situações práticas.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-role">Tecnico em Administração <span class="exp-company"> IFRN - NOVA CRUZ</span></span>
+          <span class="exp-date">2016 — 2019</span>
+        </div>
+        <ul>
+          <li>Trabalhei na Empresa Varejista Tenda Modas, atuando em funções administrativas e analíticas.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTATO ===================== -->
+  <section id="contato" class="container contact">
+    <div class="section-head">
+      <span class="eyebrow">// contato</span>
+      <h2 class="section-title">Vamos conversar</h2>
+      <p class="section-sub">Aberto a novas oportunidades e parcerias. Irá me encontrar nos canais abaixo.</p>
+    </div>
+
+    <div class="contact-links">
+      <a href="breno.dantas2000@gmail.com" class="contact-card">
+        <span class="mono-badge">@</span> breno.dantas2000@gmail.com
+      </a>
+      <a href="https://linkedin.com/in/brenodanntas" class="contact-card" target="_blank" rel="noopener">
+        <span class="mono-badge">in</span> linkedin.com/in/brenodanntas
+      </a>
+      <a href="https://github.com/brenodantass" class="contact-card" target="_blank" rel="noopener">
+        <span class="mono-badge">GH</span> github.com/brenodantass
+      </a>
+      <a href="https://instagram.com/brenodanntas" class="contact-card" target="_blank" rel="noopener">
+        <span class="mono-badge">IG</span> instagram.com/brenodanntas
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container footer-inner">
+    <span>© 2026 Breno Dantas — Todos os direitos reservados.</span>
+    <a href="#home">Voltar ao topo ↑</a>
+  </div>
+</footer>
+
+</body>
+</html>
